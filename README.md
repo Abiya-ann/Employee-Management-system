@@ -1,4 +1,4 @@
-The ER diagram shows the following entities: Employee, Department, Project and Role. The first three are strong entities and Role is a weak entity.
+The ER diagram shows the following entities: Employee (Ssn primary Key), Department(Dnum primary Key), Project(Pnum primary Key) and Role(Rname primary Key). The first three are strong entities and Role is a weak entity.
 Employee has a 'Works for' relationship with Department, 'Manages' realtionship with Department.
 Department has 'Controls' relationship with Project.
 Employee and Project have a 'Works On' relationship.
